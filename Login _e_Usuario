@@ -1,0 +1,29 @@
+
+while True:
+ opção = int(input("Escolha uma opção:"))
+ if opção == 1:
+   nome = input("Digite seu login: ")
+   senha = input("Digite sua senha: ")
+
+   while nome == senha:
+       print("Erro: A senha não deve ser igual ao nome")
+       senha = input("Digite sua senha: ")
+       print("Login Ok")
+
+ elif opção == 2:
+   print(nome,senha)
+
+ elif opção == 3:
+    nome = input("Digite seu login: ")
+    senha = input("Digite sua senha: ")
+
+    while nome == senha:
+       print("Erro: A senha não deve ser igual ao nome")
+       senha = input("Digite sua senha: ")
+       print("Login Ok")
+    
+ elif opção == 4:
+    Del(nome,senha)
+    
+ elif opção == 5:
+    break
